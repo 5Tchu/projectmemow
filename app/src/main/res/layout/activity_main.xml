@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/img_1"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -17,9 +18,9 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:srcCompat="@drawable/ic_action_name" />
+            android:layout_width="303dp"
+            android:layout_height="418dp"
+            app:srcCompat="@drawable/img" />
     </LinearLayout>
 
     <LinearLayout
@@ -33,6 +34,7 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="#9E3737"
             android:text="Entrar"
             android:textSize="34sp" />
     </LinearLayout>

@@ -5,7 +5,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CDDC39"
     android:orientation="vertical"
     tools:context=".Tela02">
 
@@ -13,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
+        android:background="#A072EB"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -26,7 +26,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Nome"
+                android:background="#141313"
+                android:backgroundTint="#FDF9F9"
+                android:text="Nome:"
                 android:textSize="24sp" />
 
             <EditText
@@ -48,7 +50,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Idade"
+                android:background="#E2BABA"
+                android:backgroundTint="#FFFDFD"
+                android:text="Idade :"
                 android:textSize="24sp" />
 
             <EditText
@@ -65,6 +69,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
+        android:background="#161414"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -72,6 +77,8 @@
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="#CC2E2E"
+            android:backgroundTint="#A03434"
             android:text="IR"
             android:textSize="34sp" />
     </LinearLayout>
