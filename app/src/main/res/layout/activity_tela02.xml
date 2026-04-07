@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/img_2"
     android:orientation="vertical"
     tools:context=".Tela02">
 
@@ -12,7 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
-        android:background="#A072EB"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -36,6 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="#FFFAFA"
                 android:ems="10"
                 android:inputType="text" />
         </LinearLayout>
@@ -60,6 +61,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="#F8F1F1"
                 android:ems="10"
                 android:inputType="text" />
         </LinearLayout>
@@ -69,14 +71,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
-        android:background="#161414"
         android:gravity="center"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="260dp"
+            android:layout_height="137dp"
             android:background="#CC2E2E"
             android:backgroundTint="#A03434"
             android:text="IR"
